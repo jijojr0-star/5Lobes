@@ -80,10 +80,10 @@ export const ServiceModal = ({ service, isOpen, onClose }) => {
         <Dialog open={isOpen} onOpenChange={onClose}>
             <DialogContent className="max-w-5xl w-[90vw] max-h-[90vh] overflow-y-auto p-0">
                 {/* Split Layout Container */}
-                <div className="grid grid-cols-1 lg:grid-cols-2 min-h-[500px]">
-                    
+                <div className="grid grid-cols-1 lg:grid-cols-2">
+
                     {/* Left Side - Content */}
-                    <div className="flex flex-col justify-center p-8 lg:p-12 order-2 lg:order-1">
+                    <div className="flex flex-col justify-start p-6 lg:p-8 order-2 lg:order-1">
                         {/* Subtitle */}
                         <span className="text-primary font-semibold text-sm uppercase tracking-wider mb-3">
                             Our Services
@@ -242,7 +242,7 @@ export const ServiceModal = ({ service, isOpen, onClose }) => {
                     </div>
                     
                     {/* Right Side - Image */}
-                    <div className={`relative order-1 lg:order-2 min-h-[280px] lg:min-h-full ${service.whiteBackground ? 'bg-white flex items-center justify-center p-4' : ''}`}>
+                    <div className={`relative order-1 lg:order-2 min-h-[200px] ${service.whiteBackground ? 'bg-white flex items-center justify-center p-4' : ''}`}>
                         <img
                             src={service.image}
                             alt={service.title}
