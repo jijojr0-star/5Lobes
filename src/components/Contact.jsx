@@ -22,7 +22,6 @@ export const Contact = () => {
         name: '',
         email: '',
         phone: '',
-        mobile: '',
         message: ''
     });
     const [isSubmitting, setIsSubmitting] = useState(false);
@@ -63,14 +62,13 @@ export const Contact = () => {
                         from_name: formData.name,
                         from_email: formData.email,
                         phone: formData.phone,
-                        mobile: formData.mobile,
-                        message: formData.message,
+                        message: `Phone: ${formData.phone}\n\n${formData.message}`,
                     },
                 }));
             });
 
             toast.success('Your inquiry has been submitted successfully.');
-            setFormData({ name: '', email: '', phone: '', mobile: '', message: '' });
+            setFormData({ name: '', email: '', phone: '', message: '' });
         } catch (error) {
             console.error('EmailJS error:', error);
             toast.error('Failed to submit inquiry. Please try again later.');
@@ -106,8 +104,8 @@ export const Contact = () => {
                 {/* Office Information */}
                 <div className="space-y-6">
                     {offices.map((office, index) => (
-                        <Card 
-                            key={index} 
+                        <Card
+                            key={index}
                             className="bg-accent border border-border animate-fade-in-up"
                             style={{ animationDelay: `${index * 100}ms` }}
                         >
@@ -142,8 +140,8 @@ export const Contact = () => {
                         <form onSubmit={handleSubmit}>
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
                                 <div className="space-y-2">
-                                    <label 
-                                        htmlFor="name" 
+                                    <label
+                                        htmlFor="name"
                                         className="block font-semibold text-secondary text-sm"
                                     >
                                         Name
@@ -160,8 +158,8 @@ export const Contact = () => {
                                     />
                                 </div>
                                 <div className="space-y-2">
-                                    <label 
-                                        htmlFor="email" 
+                                    <label
+                                        htmlFor="email"
                                         className="block font-semibold text-secondary text-sm"
                                     >
                                         Email
@@ -179,49 +177,29 @@ export const Contact = () => {
                                 </div>
                             </div>
 
-                            <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mb-5">
-                                <div className="space-y-2">
-                                    <label
-                                        htmlFor="phone"
-                                        className="block font-semibold text-secondary text-sm"
-                                    >
-                                        Phone Number
-                                    </label>
-                                    <Input
-                                        id="phone"
-                                        name="phone"
-                                        type="tel"
-                                        required
-                                        value={formData.phone}
-                                        onChange={handleChange}
-                                        className="h-11"
-                                        placeholder="Enter your phone number"
-                                        data-testid="phone-input"
-                                    />
-                                </div>
-                                <div className="space-y-2">
-                                    <label
-                                        htmlFor="mobile"
-                                        className="block font-semibold text-secondary text-sm"
-                                    >
-                                        Mobile Number
-                                    </label>
-                                    <Input
-                                        id="mobile"
-                                        name="mobile"
-                                        type="tel"
-                                        value={formData.mobile}
-                                        onChange={handleChange}
-                                        className="h-11"
-                                        placeholder="Enter your mobile number"
-                                        data-testid="mobile-input"
-                                    />
-                                </div>
+                            <div className="space-y-2 mb-5">
+                                <label
+                                    htmlFor="phone"
+                                    className="block font-semibold text-secondary text-sm"
+                                >
+                                    Phone Number
+                                </label>
+                                <Input
+                                    id="phone"
+                                    name="phone"
+                                    type="tel"
+                                    required
+                                    value={formData.phone}
+                                    onChange={handleChange}
+                                    className="h-11"
+                                    placeholder="Enter your phone number"
+                                    data-testid="phone-input"
+                                />
                             </div>
-                            
+
                             <div className="space-y-2 mb-6">
-                                <label 
-                                    htmlFor="message" 
+                                <label
+                                    htmlFor="message"
                                     className="block font-semibold text-secondary text-sm"
                                 >
                                     Message
