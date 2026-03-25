@@ -26,8 +26,8 @@ export const Navigation = () => {
     ];
 
     const partnerLinks = [
-        { href: '#odoo-partner', label: 'Odoo', openModal: true, serviceKey: 'odoo-partner' },
-        { href: '#talentcorner', label: 'TalentCorner', openModal: true, serviceKey: 'hr-consulting' }
+        { href: '#odoo-partner', label: 'Odoo', openModal: true, serviceKey: 'odoo-partner', logo: 'https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/mn96lm9e_image.png' },
+        { href: '#talentcorner', label: 'TalentCorner', openModal: true, serviceKey: 'hr-consulting', logo: 'https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/au29ykee_image.png' }
     ];
 
     // Close dropdowns when clicking outside
@@ -202,14 +202,17 @@ export const Navigation = () => {
                     
                     {/* Partners Dropdown Menu */}
                     {isPartnersOpen && (
-                        <div className="absolute top-full left-0 mt-2 w-48 bg-background border border-border rounded-lg shadow-lg py-2 animate-fade-in z-50">
+                        <div className="absolute top-full left-0 mt-2 w-52 bg-background border border-border rounded-lg shadow-lg py-2 animate-fade-in z-50">
                             {partnerLinks.map((link) => (
                                 <a
                                     key={link.label}
                                     href={link.openModal ? '#' : link.href}
                                     onClick={(e) => handleServiceLinkClick(e, link)}
-                                    className="block px-4 py-2 text-secondary font-medium hover:bg-accent hover:text-primary transition-colors duration-200"
+                                    className="flex items-center gap-3 px-4 py-2.5 text-secondary font-medium hover:bg-accent hover:text-primary transition-colors duration-200"
                                 >
+                                    {link.logo && (
+                                        <img src={link.logo} alt={link.label} className="w-6 h-6 object-contain flex-shrink-0" loading="lazy" />
+                                    )}
                                     {link.label}
                                 </a>
                             ))}
@@ -359,8 +362,11 @@ export const Navigation = () => {
                                             key={link.label}
                                             href={link.openModal ? '#' : link.href}
                                             onClick={(e) => handleServiceLinkClick(e, link)}
-                                            className="block py-2 text-muted-foreground font-medium hover:text-primary transition-colors duration-200"
+                                            className="flex items-center gap-3 py-2 text-muted-foreground font-medium hover:text-primary transition-colors duration-200"
                                         >
+                                            {link.logo && (
+                                                <img src={link.logo} alt={link.label} className="w-6 h-6 object-contain flex-shrink-0" loading="lazy" />
+                                            )}
                                             {link.label}
                                         </a>
                                     ))}
