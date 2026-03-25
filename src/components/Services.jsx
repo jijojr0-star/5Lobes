@@ -79,7 +79,7 @@ export const Services = () => {
             </div>
 
             {/* Services Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 auto-rows-fr">
                 {Object.entries(serviceData).map(([key, service], index) => {
                     const getCardId = () => {
                         switch(key) {
@@ -95,7 +95,7 @@ export const Services = () => {
                         <Card
                             key={key}
                             id={getCardId()}
-                            className="bg-background border border-border rounded-xl cursor-pointer service-card-hover animate-fade-in-up scroll-mt-24 relative overflow-hidden group"
+                            className="bg-background border border-border rounded-xl cursor-pointer service-card-hover animate-fade-in-up scroll-mt-24 relative overflow-hidden group h-full"
                             style={{ animationDelay: `${index * 50}ms` }}
                             onClick={() => handleServiceClick(key)}
                             role="button"
