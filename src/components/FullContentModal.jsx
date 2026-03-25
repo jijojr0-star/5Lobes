@@ -31,7 +31,7 @@ export default function FullContentModal({ service, isOpen, onClose }) {
                     </div>
                 </div>
 
-                <div className="p-6 md:p-8 space-y-10">
+                <div className="p-6 md:p-8 space-y-6">
                     {/* Introduction */}
                     <p className="text-muted-foreground text-[15px] leading-[1.7] pb-2">{service.content}</p>
                     {service.fullContent && <div className="border-b border-border"></div>}
