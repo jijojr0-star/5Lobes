@@ -20,7 +20,7 @@ export default function FullContentModal({ service, isOpen, onClose }) {
                 {/* Hero Banner */}
                 <div className="relative h-48 md:h-56 overflow-hidden">
                     <img src={service.image} alt={service.title} className="w-full h-full object-cover" loading="lazy" />
-                    <div className="absolute inset-0 bg-gradient-to-t from-secondary/90 via-secondary/50 to-transparent" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent" />
                     <div className="absolute bottom-0 left-0 p-6 md:p-8">
                         <span className="text-primary-foreground/80 font-semibold text-xs uppercase tracking-wider">Our Services</span>
                         <h2 className="text-2xl md:text-3xl font-bold text-white mt-1">{service.title}</h2>
