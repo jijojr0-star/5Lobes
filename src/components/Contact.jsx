@@ -62,7 +62,7 @@ export const Contact = () => {
                         from_name: formData.name,
                         from_email: formData.email,
                         phone: formData.phone,
-                        message: `Phone: ${formData.phone}\n\n${formData.message}`,
+                        message: formData.message,
                     },
                 }));
             });
