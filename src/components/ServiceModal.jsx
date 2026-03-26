@@ -42,7 +42,6 @@ const TextSubModal = ({ title, description, image, isOpen, onClose }) => (
                         className="absolute inset-0 w-full h-full object-cover md:rounded-l-lg rounded-t-lg md:rounded-tr-none"
                         loading="lazy"
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t md:bg-gradient-to-l from-secondary/20 to-transparent md:rounded-l-lg rounded-t-lg md:rounded-tr-none"></div>
                 </div>
                 {/* Right - Content */}
                 <div className="flex flex-col justify-center p-8">
@@ -252,11 +251,7 @@ export const ServiceModal = ({ service, isOpen, onClose }) => {
                             }
                             loading="lazy"
                         />
-                        {/* Subtle Gradient Overlay */}
-                        {!service.whiteBackground && (
-                            <div className="absolute inset-0 bg-gradient-to-t lg:bg-gradient-to-l from-secondary/20 to-transparent lg:rounded-r-lg rounded-t-lg lg:rounded-tl-none"></div>
-                        )}
-                    </div>
+                        </div>
                 </div>
             </DialogContent>
         </Dialog>
