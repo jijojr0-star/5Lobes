@@ -104,7 +104,7 @@ export const Navigation = () => {
                 <img
                     src="/5lobes-logo.svg"
                     alt="5Lobes Technologies"
-                    className="h-12 md:h-14 w-auto object-contain"
+                    className="h-12 md:h-14 w-auto object-contain rounded-lg"
                     loading="eager"
                 />
             </a>
