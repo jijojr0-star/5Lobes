@@ -1,5 +1,5 @@
 export const serviceData = {
-    // Priority Services (First 4)
+    // 1
     'erp-consulting': {
         title: 'Enterprise Resource Planning Services',
         icon: 'Network',
@@ -55,6 +55,7 @@ export const serviceData = {
             'Information Technology'
         ]
     },
+    // 2
     'infor-syteline': {
         title: 'Infor SyteLine (Cloudsuite Industrials)',
         icon: 'Factory',
@@ -110,6 +111,7 @@ export const serviceData = {
             'Managed 25+ integration touchpoints'
         ]
     },
+    // 3
     'odoo-partner': {
         title: 'Odoo Partners',
         icon: 'Handshake',
@@ -117,6 +119,7 @@ export const serviceData = {
         content: 'As Odoo Partners, we provide professional services to help businesses maximize the value of their ERP solutions:',
         list: ['Odoo Implementation', 'Odoo Customization', 'Odoo Training', 'Odoo Support']
     },
+    // 4
     'hr-consulting': {
         title: 'Human Resource Management',
         icon: 'Users',
@@ -136,68 +139,7 @@ export const serviceData = {
             description: ', enabling us to deliver professional recruitment and HR solutions through a trusted national HR network.'
         }
     },
-    // Other Services
-    'custom-software': {
-        title: 'Custom Software Development',
-        icon: 'Laptop',
-        image: 'https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/l8ifhuq1_image.png',
-        content: 'We provide Custom Software Development services that deliver secure, scalable, and high-performance solutions tailored to your business needs.'
-    },
-    'it-consulting': {
-        title: 'IT Consulting & Expert Services',
-        icon: 'UserCheck',
-        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80',
-        content: 'We offer IT Consulting & Expert Services to help businesses optimise their technology, improve efficiency, and achieve digital transformation.'
-    },
-    'qa-testing': {
-        title: 'Software Testing & Quality Assurance',
-        icon: 'TestTube',
-        image: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=800&q=80',
-        content: 'We are a software testing team dedicated to ensuring high-quality, reliable, and secure applications. Our goal is to help businesses deliver bug-free software and provide the best user experience.',
-        testingServices: {
-            intro: 'We offer professional software testing services to improve application quality and performance.',
-            types: [
-                {
-                    title: 'Manual Testing',
-                    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80',
-                    description: 'Manual testing involves testers checking the application manually to find bugs and ensure all features work as expected.'
-                },
-                {
-                    title: 'Automation Testing',
-                    image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&q=80',
-                    description: 'Automation testing uses tools and scripts to automatically run test cases, improving efficiency and reducing testing time.'
-                },
-                {
-                    title: 'Functional Testing',
-                    image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=400&q=80',
-                    description: 'Functional testing verifies that every feature of the application works according to the specified requirements.'
-                },
-                {
-                    title: 'Performance Testing',
-                    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=400&q=80',
-                    description: 'Performance testing checks how the application performs under different loads to ensure speed, stability, and scalability.'
-                },
-                {
-                    title: 'Security Testing',
-                    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400&q=80',
-                    description: 'Security testing identifies vulnerabilities and ensures the application is protected from threats and unauthorized access.'
-                }
-            ]
-        }
-    },
-    'bi-solutions': {
-        title: 'Business Intelligence Solutions',
-        icon: 'BarChart3',
-        image: 'https://customer-assets.emergentagent.com/job_techservices-site/artifacts/24hv3gu0_image.png',
-        content: 'Our Business Intelligence solutions transform raw data into meaningful insights, enabling better decision-making.',
-        whiteBackground: true
-    },
-    'finance-bpo': {
-        title: 'Finance & Accounting BPO',
-        icon: 'Calculator',
-        image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80',
-        content: 'We offer reliable Finance & Accounting BPO services to manage bookkeeping, payroll, reporting, and compliance.'
-    },
+    // 5
     'web-dev': {
         title: 'Web Design & Development Services',
         subtitle: 'Crafting Digital Experiences That Convert',
@@ -248,11 +190,78 @@ export const serviceData = {
             text: 'Ready to take your online presence to the next level? Let\'s create a website that not only looks great but also delivers real results.'
         }
     },
+    // 6
+    'qa-testing': {
+        title: 'Software Testing & Quality Assurance',
+        icon: 'TestTube',
+        image: 'https://images.unsplash.com/photo-1516321497487-e288fb19713f?auto=format&fit=crop&w=800&q=80',
+        content: 'We are a software testing team dedicated to ensuring high-quality, reliable, and secure applications. Our goal is to help businesses deliver bug-free software and provide the best user experience.',
+        testingServices: {
+            intro: 'We offer professional software testing services to improve application quality and performance.',
+            types: [
+                {
+                    title: 'Manual Testing',
+                    image: 'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=400&q=80',
+                    description: 'Manual testing involves testers checking the application manually to find bugs and ensure all features work as expected.'
+                },
+                {
+                    title: 'Automation Testing',
+                    image: 'https://images.unsplash.com/photo-1555949963-aa79dcee981c?auto=format&fit=crop&w=400&q=80',
+                    description: 'Automation testing uses tools and scripts to automatically run test cases, improving efficiency and reducing testing time.'
+                },
+                {
+                    title: 'Functional Testing',
+                    image: 'https://images.unsplash.com/photo-1484480974693-6ca0a78fb36b?auto=format&fit=crop&w=400&q=80',
+                    description: 'Functional testing verifies that every feature of the application works according to the specified requirements.'
+                },
+                {
+                    title: 'Performance Testing',
+                    image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=400&q=80',
+                    description: 'Performance testing checks how the application performs under different loads to ensure speed, stability, and scalability.'
+                },
+                {
+                    title: 'Security Testing',
+                    image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=400&q=80',
+                    description: 'Security testing identifies vulnerabilities and ensures the application is protected from threats and unauthorized access.'
+                }
+            ]
+        }
+    },
+    // 7
     'ai-data-science': {
         title: 'AI & Data Science Capabilities',
         icon: 'BrainCircuit',
         image: 'https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/if7xvp1k_image.png',
         content: 'We leverage advanced AI and Data Science technologies to help organizations make smarter decisions and unlock business value from their data. Our capabilities include data analytics, machine learning solutions, predictive modeling, intelligent automation, and AI-driven insights that enable businesses to innovate, optimize operations, and stay competitive in a data-driven world.',
         whiteBackground: true
+    },
+    // 8
+    'bi-solutions': {
+        title: 'Business Intelligence Solutions',
+        icon: 'BarChart3',
+        image: 'https://customer-assets.emergentagent.com/job_techservices-site/artifacts/24hv3gu0_image.png',
+        content: 'Our Business Intelligence solutions transform raw data into meaningful insights, enabling better decision-making.',
+        whiteBackground: true
+    },
+    // 9
+    'it-consulting': {
+        title: 'IT Consulting & Expert Services',
+        icon: 'UserCheck',
+        image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80',
+        content: 'We offer IT Consulting & Expert Services to help businesses optimise their technology, improve efficiency, and achieve digital transformation.'
+    },
+    // 10
+    'custom-software': {
+        title: 'Custom Software Development',
+        icon: 'Laptop',
+        image: 'https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/l8ifhuq1_image.png',
+        content: 'We provide Custom Software Development services that deliver secure, scalable, and high-performance solutions tailored to your business needs.'
+    },
+    // 11
+    'finance-bpo': {
+        title: 'Finance & Accounting BPO',
+        icon: 'Calculator',
+        image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80',
+        content: 'We offer reliable Finance & Accounting BPO services to manage bookkeeping, payroll, reporting, and compliance.'
     }
 };
