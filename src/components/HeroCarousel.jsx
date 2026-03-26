@@ -89,7 +89,7 @@ export const HeroCarousel = () => {
                         />
                         
                         {/* Gradient Overlay */}
-                        <div className="absolute inset-0 bg-gradient-to-r from-secondary/85 via-secondary/70 to-secondary/40" />
+                        <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-black/60 to-black/30" />
                         
                         {/* Content - Centered */}
                         <div className="relative h-full flex items-center justify-center px-[8%]">
