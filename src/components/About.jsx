@@ -133,7 +133,7 @@ export const About = () => {
             </div>
 
             {/* Mantra Section */}
-            <div className="bg-accent border border-border text-foreground rounded-3xl p-8 md:p-12 mt-16">
+            <div className="bg-secondary text-secondary-foreground rounded-3xl p-8 md:p-12 mt-16">
                 <div className="text-center mb-8">
                     <h3 className="text-2xl md:text-3xl font-bold text-primary mb-2">
                         Our Mantra
