@@ -102,7 +102,7 @@ export const Navigation = () => {
                 className="flex items-center no-underline h-full"
             >
                 <img
-                    src="/5lobes-logo.png"
+                    src="/5lobes-logo.svg"
                     alt="5Lobes Technologies"
                     className="h-12 md:h-14 w-auto object-contain"
                     loading="eager"
