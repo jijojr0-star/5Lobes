@@ -101,8 +101,8 @@ export const Navigation = () => {
                 onClick={(e) => scrollToSection(e, '#home')}
                 className="flex items-center no-underline h-full"
             >
-                <img 
-                    src="https://customer-assets.emergentagent.com/job_techservices-site/artifacts/7hhx7w9a_image.png"
+                <img
+                    src="/5lobes-logo.png"
                     alt="5Lobes Technologies"
                     className="h-12 md:h-14 w-auto object-contain"
                     loading="eager"
