@@ -16,7 +16,7 @@ export default function FullContentModal({ service, isOpen, onClose }) {
 
     return (
         <Dialog open={isOpen} onOpenChange={onClose}>
-            <DialogContent className="max-w-5xl w-[90vw] max-h-[90vh] overflow-y-auto p-0" data-testid="full-content-modal">
+            <DialogContent className="max-w-6xl w-[90vw] max-h-[90vh] overflow-y-auto p-0" data-testid="full-content-modal">
                 {/* Hero Banner */}
                 <div className="relative h-48 md:h-56 overflow-hidden">
                     <img src={service.image} alt={service.title} className="w-full h-full object-cover" loading="lazy" />
