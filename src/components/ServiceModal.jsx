@@ -77,7 +77,7 @@ export const ServiceModal = ({ service, isOpen, onClose }) => {
     return (
         <>
         <Dialog open={isOpen} onOpenChange={onClose}>
-            <DialogContent className="max-w-5xl w-[90vw] max-h-[90vh] overflow-y-auto p-0">
+            <DialogContent className="max-w-6xl w-[90vw] max-h-[90vh] overflow-y-auto p-0">
                 {/* Split Layout Container */}
                 <div className="grid grid-cols-1 lg:grid-cols-2">
 
