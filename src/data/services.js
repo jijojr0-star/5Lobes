@@ -112,6 +112,51 @@ export const serviceData = {
         ]
     },
     // 3
+    'infor-mongoose': {
+        title: 'Application Development (Infor Mongoose)',
+        icon: 'AppWindow',
+        image: 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?auto=format&fit=crop&w=800&q=80',
+        content: 'We provide end-to-end application development services using Infor Mongoose—covering requirement analysis, design, development, deployment, and ongoing support. Our approach helps businesses build scalable, flexible, and user-friendly applications that accelerate digital transformation and improve operational efficiency.',
+        coreServices: [
+            {
+                category: 'Application Development',
+                items: [
+                    'Custom business application development',
+                    'Low-code rapid application design',
+                    'Workflow and process automation',
+                    'UI/UX design and customization'
+                ]
+            },
+            {
+                category: 'System Integration',
+                items: [
+                    'Integration with ERP and enterprise systems',
+                    'API development and third-party connectivity',
+                    'Data synchronization and automation',
+                    'Infor ION-based integrations'
+                ]
+            },
+            {
+                category: 'Implementation & Deployment',
+                items: [
+                    'Full-cycle implementation (cloud & on-premise)',
+                    'Environment setup and configuration',
+                    'Data migration and validation',
+                    'User training and onboarding'
+                ]
+            },
+            {
+                category: 'Support & Enhancement',
+                items: [
+                    'Post-go-live support and maintenance',
+                    'Application performance optimization',
+                    'Feature enhancements and upgrades',
+                    'Troubleshooting and issue resolution'
+                ]
+            }
+        ]
+    },
+    // 4
     'odoo-partner': {
         title: 'Odoo Partners',
         icon: 'Handshake',
@@ -119,7 +164,7 @@ export const serviceData = {
         content: 'As Odoo Partners, we provide professional services to help businesses maximize the value of their ERP solutions:',
         list: ['Odoo Implementation', 'Odoo Customization', 'Odoo Training', 'Odoo Support']
     },
-    // 4
+    // 5
     'hr-consulting': {
         title: 'Human Resource Management',
         icon: 'Users',
