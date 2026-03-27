@@ -367,6 +367,26 @@ export const serviceData = {
         title: 'Finance & Accounting BPO',
         icon: 'Calculator',
         image: 'https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=800&q=80',
-        content: 'We offer reliable Finance & Accounting BPO services to manage bookkeeping, payroll, reporting, and compliance.'
+        content: 'We offer reliable Finance & Accounting BPO services to manage bookkeeping, payroll, reporting, and compliance.',
+        coreServices: [
+            {
+                category: 'What We Deliver',
+                items: [
+                    'End-to-end finance and accounting outsourcing',
+                    'Accurate, timely, and compliant financial processes',
+                    'Cost-effective and scalable back-office operations',
+                    'Improved financial visibility and control'
+                ]
+            },
+            {
+                category: 'Our Approach',
+                items: [
+                    'Analyze current financial processes and gaps',
+                    'Standardize and streamline workflows',
+                    'Implement best practices and automation',
+                    'Ensure continuous monitoring and compliance'
+                ]
+            }
+        ]
     }
 };
