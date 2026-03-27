@@ -340,7 +340,27 @@ export const serviceData = {
         title: 'Custom Software Development',
         icon: 'Laptop',
         image: 'https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/l8ifhuq1_image.png',
-        content: 'We provide Custom Software Development services that deliver secure, scalable, and high-performance solutions tailored to your business needs.'
+        content: 'We provide Custom Software Development services that deliver secure, scalable, and high-performance solutions tailored to your business needs.',
+        coreServices: [
+            {
+                category: 'Key Capabilities',
+                items: [
+                    'Web and mobile application development',
+                    'Enterprise software solutions',
+                    'API development and system integration',
+                    'Cloud-native application development'
+                ]
+            },
+            {
+                category: 'Value We Create',
+                items: [
+                    'Faster time-to-market',
+                    'Improved operational efficiency',
+                    'Flexible and scalable systems',
+                    'Enhanced user engagement'
+                ]
+            }
+        ]
     },
     // 11
     'finance-bpo': {
