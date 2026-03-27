@@ -121,24 +121,9 @@ export const Services = () => {
                                     {service.title}
                                 </h3>
 
-                                <p className="text-sm text-muted-foreground line-clamp-2 leading-relaxed">
+                                <p className="text-sm text-muted-foreground line-clamp-2 leading-relaxed flex-1">
                                     {service.content}
                                 </p>
-
-                                {/* Highlights for Infor SyteLine */}
-                                {key === 'infor-syteline' && service.highlights && (
-                                    <ul className="mt-4 space-y-1.5 flex-1">
-                                        {service.highlights.slice(0, 4).map((h, i) => (
-                                            <li key={i} className="flex items-start gap-2 text-xs text-muted-foreground">
-                                                <div className="flex-shrink-0 w-1.5 h-1.5 rounded-full bg-primary mt-1.5"></div>
-                                                <span>{h}</span>
-                                            </li>
-                                        ))}
-                                    </ul>
-                                )}
-
-                                {/* Spacer for cards without highlights */}
-                                {key !== 'infor-syteline' && <div className="flex-1" />}
 
                                 {/* Partnership info for HR Consulting */}
                                 {key === 'hr-consulting' && service.partnership && (
