@@ -313,7 +313,27 @@ export const serviceData = {
         title: 'IT Consulting & Expert Services',
         icon: 'UserCheck',
         image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80',
-        content: 'We offer IT Consulting & Expert Services to help businesses optimise their technology, improve efficiency, and achieve digital transformation.'
+        content: 'We offer IT Consulting & Expert Services to help businesses optimise their technology, improve efficiency, and achieve digital transformation.',
+        coreServices: [
+            {
+                category: 'Key Capabilities',
+                items: [
+                    'IT strategy & roadmap planning',
+                    'Technology assessment & advisory',
+                    'System architecture design',
+                    'Cloud and infrastructure consulting'
+                ]
+            },
+            {
+                category: 'Value We Create',
+                items: [
+                    'Reduced IT complexity and costs',
+                    'Improved system performance',
+                    'Faster technology adoption',
+                    'Stronger business-IT alignment'
+                ]
+            }
+        ]
     },
     // 10
     'custom-software': {
