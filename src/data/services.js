@@ -286,7 +286,27 @@ export const serviceData = {
         icon: 'BarChart3',
         image: 'https://customer-assets.emergentagent.com/job_techservices-site/artifacts/24hv3gu0_image.png',
         content: 'Our Business Intelligence solutions transform raw data into meaningful insights, enabling better decision-making.',
-        whiteBackground: true
+        whiteBackground: true,
+        coreServices: [
+            {
+                category: 'What We Deliver',
+                items: [
+                    'Unified data across multiple systems',
+                    'Real-time dashboards and reporting',
+                    'Actionable insights for faster decisions',
+                    'Scalable and secure BI solutions'
+                ]
+            },
+            {
+                category: 'Our Approach',
+                items: [
+                    'Understand business goals and KPIs',
+                    'Integrate and prepare data sources',
+                    'Build intuitive dashboards',
+                    'Enable continuous optimization'
+                ]
+            }
+        ]
     },
     // 9
     'it-consulting': {
