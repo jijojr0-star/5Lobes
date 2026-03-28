@@ -77,7 +77,7 @@ export const Footer = () => {
     const currentYear = new Date().getFullYear();
 
     return (
-        <footer className="bg-[#050c16] text-[#a8b2d1]">
+        <footer className="bg-[#050c16] text-white">
 
             {/* ── Main grid ── */}
             <div className="px-[8%] pt-16 pb-10">
@@ -93,7 +93,7 @@ export const Footer = () => {
                                 loading="lazy"
                             />
                         </a>
-                        <p className="text-sm leading-relaxed text-[#6b7a9d] mb-6">
+                        <p className="text-sm leading-relaxed text-white mb-6">
                             Best brains building a better tomorrow. IT strategy &amp; solutions
                             for organizations navigating disruptive change.
                         </p>
@@ -107,7 +107,7 @@ export const Footer = () => {
                                     target="_blank"
                                     rel="noopener noreferrer"
                                     title={p.label}
-                                    className="w-9 h-9 rounded-lg bg-white/5 hover:bg-[#007bff] flex items-center justify-center text-[#a8b2d1] hover:text-white transition-all duration-200"
+                                    className="w-9 h-9 rounded-lg bg-white/5 hover:bg-[#007bff] flex items-center justify-center text-white hover:text-white transition-all duration-200"
                                 >
                                     {p.icon}
                                 </a>
@@ -126,7 +126,7 @@ export const Footer = () => {
                                     <a
                                         href={link.href}
                                         onClick={(e) => scrollToSection(e, link.href)}
-                                        className="text-sm text-[#6b7a9d] hover:text-[#007bff] transition-colors duration-200 flex items-center gap-2 group"
+                                        className="text-sm text-white hover:text-[#007bff] transition-colors duration-200 flex items-center gap-2 group"
                                     >
                                         <span className="w-1.5 h-1.5 rounded-full bg-[#007bff] opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex-shrink-0" />
                                         {link.label}
@@ -144,14 +144,14 @@ export const Footer = () => {
                                 {office.region} Office
                             </h4>
                             <ul className="space-y-3">
-                                <li className="flex items-start gap-3 text-sm text-[#6b7a9d]">
+                                <li className="flex items-start gap-3 text-sm text-white">
                                     <MapPin className="w-4 h-4 text-[#007bff] flex-shrink-0 mt-0.5" />
                                     {office.address}
                                 </li>
                                 <li>
                                     <a
                                         href={`mailto:${office.email}`}
-                                        className="flex items-start gap-3 text-sm text-[#6b7a9d] hover:text-[#007bff] transition-colors duration-200 break-all"
+                                        className="flex items-start gap-3 text-sm text-white hover:text-[#007bff] transition-colors duration-200 break-all"
                                     >
                                         <Mail className="w-4 h-4 text-[#007bff] flex-shrink-0 mt-0.5" />
                                         {office.email}
@@ -161,7 +161,7 @@ export const Footer = () => {
                                     <li>
                                         <a
                                             href={`tel:${office.phone.replace(/\s/g, '')}`}
-                                            className="flex items-center gap-3 text-sm text-[#6b7a9d] hover:text-[#007bff] transition-colors duration-200"
+                                            className="flex items-center gap-3 text-sm text-white hover:text-[#007bff] transition-colors duration-200"
                                         >
                                             <Phone className="w-4 h-4 text-[#007bff] flex-shrink-0" />
                                             {office.phone}
