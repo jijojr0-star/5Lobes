@@ -89,7 +89,7 @@ export const Footer = () => {
                             <img
                                 src="/5lobes-footer-logo.svg"
                                 alt="5Lobes Technologies"
-                                className="h-10 w-auto object-contain mb-4"
+                                className="h-10 w-auto object-contain mb-4 rounded-lg"
                                 loading="lazy"
                             />
                         </a>
