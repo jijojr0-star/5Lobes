@@ -106,11 +106,11 @@ export const ServiceModal = ({ service, isOpen, onClose }) => {
                             <div className="bg-accent/50 border border-primary/20 rounded-lg p-5 mb-6">
                                 <div className="flex items-center gap-2 mb-2">
                                     <div className="w-2 h-2 rounded-full bg-primary"></div>
-                                    <span className="text-sm font-semibold text-secondary uppercase tracking-wide">
+                                    <span className="text-base font-bold text-secondary uppercase tracking-wide">
                                         Partnership
                                     </span>
                                 </div>
-                                <p className="text-muted-foreground text-sm leading-relaxed">
+                                <p className="text-muted-foreground text-base leading-relaxed">
                                     {service.partnership.text}{' '}
                                     <a
                                         href={service.partnership.partnerUrl}
