@@ -102,7 +102,7 @@ export const Navigation = () => {
                 className="flex flex-col items-start no-underline justify-center h-full py-3"
             >
                 <img
-                    src="/5lobes-logo.jpg"
+                    src="/5lobes-logo.svg"
                     alt="5Lobes Technologies"
                     className="h-14 md:h-16 w-auto object-contain rounded-lg"
                     loading="eager"
