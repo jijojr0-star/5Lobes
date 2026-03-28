@@ -30,7 +30,8 @@ const slides = [
         image: 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1920&q=80',
         title: 'Human Resource Management',
         description: 'We provide end-to-end HR services including recruitment, staffing, payroll management, HR consultancy, compliance support, training, and workforce solutions.',
-        serviceKey: 'hr-consulting'
+        serviceKey: 'hr-consulting',
+        partnership: { label: 'TalentCorner', url: 'https://talentcorner.in/' }
     }
 ];
 
@@ -101,14 +102,27 @@ export const HeroCarousel = () => {
                                 >
                                     {slide.title}
                                 </h1>
-                                <p 
-                                    className={`text-base md:text-lg lg:text-xl opacity-90 mb-6 md:mb-8 max-w-2xl mx-auto leading-relaxed ${
+                                <p
+                                    className={`text-base md:text-lg lg:text-xl opacity-90 mb-3 md:mb-4 max-w-2xl mx-auto leading-relaxed ${
                                         index === currentSlide ? 'animate-fade-in-up' : ''
                                     }`}
                                     style={{ animationDelay: '0.15s' }}
                                 >
                                     {slide.description}
                                 </p>
+                                {slide.partnership && (
+                                    <p className="text-sm md:text-base opacity-90 mb-4 md:mb-6">
+                                        <span className="font-semibold text-white">Partnership: </span>
+                                        <a
+                                            href={slide.partnership.url}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-primary font-bold hover:underline"
+                                        >
+                                            {slide.partnership.label}
+                                        </a>
+                                    </p>
+                                )}
                                 <div 
                                     className={`${index === currentSlide ? 'animate-fade-in-up' : ''}`}
                                     style={{ animationDelay: '0.3s' }}
