@@ -94,22 +94,19 @@ export const Navigation = () => {
     };
 
     return (
-        <nav className="flex justify-between items-center h-[90px] px-[8%] bg-background shadow-nav sticky top-0 z-50">
-            {/* Logo + Tagline */}
+        <nav className="flex justify-between items-center h-[80px] px-[8%] bg-background shadow-nav sticky top-0 z-50">
+            {/* Logo */}
             <a
                 href="#home"
                 onClick={(e) => scrollToSection(e, '#home')}
-                className="flex flex-col justify-center no-underline h-full py-2"
+                className="flex items-center no-underline h-full py-2"
             >
                 <img
                     src="/5lobes-logo.svg"
                     alt="5Lobes Technologies"
-                    className="h-12 md:h-14 w-auto object-contain rounded-lg"
+                    className="h-14 md:h-16 w-auto object-contain rounded-lg"
                     loading="eager"
                 />
-                <span className="text-sm md:text-base italic text-secondary font-medium mt-0.5 leading-tight">
-                    Best brains building a better tomorrow!
-                </span>
             </a>
 
             {/* Desktop Navigation */}
