@@ -19,10 +19,18 @@ export const Navigation = () => {
     ];
 
     const serviceLinks = [
-        { href: '#erp-consulting', label: 'ERP Consulting & Implementation Services', openModal: true, serviceKey: 'erp-consulting' },
         { href: '#infor-syteline', label: 'Infor SyteLine (Cloudsuite Industrials)', openModal: true, serviceKey: 'infor-syteline' },
-        { href: '#odoo-partner', label: 'Odoo', openModal: true, serviceKey: 'odoo-partner' },
-        { href: '#hr-consulting', label: 'Human Resource Management', openModal: true, serviceKey: 'hr-consulting' }
+        { href: '#infor-mongoose', label: 'Application Development (Infor Mongoose)', openModal: true, serviceKey: 'infor-mongoose' },
+        { href: '#odoo-partner', label: 'Odoo Partners', openModal: true, serviceKey: 'odoo-partner' },
+        { href: '#hr-consulting', label: 'Human Resource Management', openModal: true, serviceKey: 'hr-consulting' },
+        { href: '#erp-consulting', label: 'Enterprise Resource Planning Services', openModal: true, serviceKey: 'erp-consulting' },
+        { href: '#web-dev', label: 'Web Design & Development Services', openModal: true, serviceKey: 'web-dev' },
+        { href: '#qa-testing', label: 'Software Testing & Quality Assurance', openModal: true, serviceKey: 'qa-testing' },
+        { href: '#ai-data-science', label: 'AI & Data Science Capabilities', openModal: true, serviceKey: 'ai-data-science' },
+        { href: '#bi-solutions', label: 'Business Intelligence Solutions', openModal: true, serviceKey: 'bi-solutions' },
+        { href: '#it-consulting', label: 'IT Consulting & Expert Services', openModal: true, serviceKey: 'it-consulting' },
+        { href: '#custom-software', label: 'Custom Software Development', openModal: true, serviceKey: 'custom-software' },
+        { href: '#finance-bpo', label: 'Finance & Accounting BPO', openModal: true, serviceKey: 'finance-bpo' },
     ];
 
     const partnerLinks = [
