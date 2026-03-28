@@ -278,7 +278,27 @@ export const serviceData = {
         icon: 'BrainCircuit',
         image: 'https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/if7xvp1k_image.png',
         content: 'We leverage advanced AI and Data Science technologies to help organizations make smarter decisions and unlock business value from their data. Our capabilities include data analytics, machine learning solutions, predictive modeling, intelligent automation, and AI-driven insights that enable businesses to innovate, optimize operations, and stay competitive in a data-driven world.',
-        whiteBackground: true
+        whiteBackground: true,
+        coreServices: [
+            {
+                category: 'What We Deliver',
+                items: [
+                    'Intelligent AI-driven solutions for business growth',
+                    'Data-driven insights for smarter decision-making',
+                    'Scalable machine learning and analytics models',
+                    'Automation of complex processes and workflows'
+                ]
+            },
+            {
+                category: 'Our Approach',
+                items: [
+                    'Understand business problems and data landscape',
+                    'Prepare, clean, and structure data for analysis',
+                    'Build and train AI/ML models',
+                    'Deploy, monitor, and continuously improve models'
+                ]
+            }
+        ]
     },
     // 9
     'bi-solutions': {
