@@ -40,7 +40,7 @@ const partners = [
     },
     {
         label: 'Odoo Partner',
-        href: 'https://www.odoo.com/',
+        href: 'https://www.odoo.com/partners/country/india-101?search=5lobes',
         icon: (
             <img
                 src="https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/mn96lm9e_image.png"

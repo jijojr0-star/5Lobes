@@ -243,7 +243,7 @@ export const Navigation = () => {
                         <img src="https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/7jv8hnhp_image.png" alt="LinkedIn" className="w-5 h-5 object-contain rounded-sm" loading="lazy" />
                     </a>
                     <a
-                        href="https://www.odoo.com/"
+                        href="https://www.odoo.com/partners/country/india-101?search=5lobes"
                         target="_blank"
                         rel="noopener noreferrer"
                         title="Odoo Partner"
@@ -389,7 +389,7 @@ export const Navigation = () => {
                             <a href="https://www.linkedin.com/company/5lobes-technologies-pvt-ltd/" target="_blank" rel="noopener noreferrer" title="LinkedIn" className="hover:scale-110 transition-all duration-200">
                                 <img src="https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/7jv8hnhp_image.png" alt="LinkedIn" className="w-5 h-5 object-contain rounded-sm" loading="lazy" />
                             </a>
-                            <a href="https://www.odoo.com/" target="_blank" rel="noopener noreferrer" title="Odoo Partner" className="hover:scale-110 transition-all duration-200">
+                            <a href="https://www.odoo.com/partners/country/india-101?search=5lobes" target="_blank" rel="noopener noreferrer" title="Odoo Partner" className="hover:scale-110 transition-all duration-200">
                                 <img src="https://customer-assets.emergentagent.com/job_33424166-e621-4602-bbca-dc46b9531d7e/artifacts/mn96lm9e_image.png" alt="Odoo" className="w-5 h-5 object-contain" loading="lazy" />
                             </a>
                             <a href="https://talentcorner.in/" target="_blank" rel="noopener noreferrer" title="TalentCorner Partner" className="hover:scale-110 transition-all duration-200">
