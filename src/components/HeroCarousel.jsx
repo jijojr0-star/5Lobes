@@ -63,15 +63,6 @@ export const HeroCarousel = () => {
 
     return (
         <section id="home" className="relative w-full h-[55vh] md:h-[65vh] lg:h-[75vh] overflow-hidden">
-            {/* Tagline Overlay */}
-            <div
-                className="absolute top-3 md:top-5 left-[8%] z-20 italic text-white text-base md:text-lg"
-                style={{ textShadow: '0px 2px 6px rgba(0,0,0,0.6)' }}
-                data-testid="hero-tagline"
-            >
-                Best brains building a better tomorrow!
-            </div>
-
             {/* Slides Container */}
             <div 
                 className="flex h-full transition-transform duration-700 ease-in-out"
