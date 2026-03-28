@@ -13,7 +13,7 @@ const slides = [
     },
     {
         id: 2,
-        image: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1920&q=80',
+        image: 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=1920&q=80',
         title: 'Infor SyteLine (Cloudsuite Industrials) and Mongoose',
         description: 'We provide expert Infor SyteLine (Cloudsuite Industrials) consulting to help businesses optimize ERP systems and manufacturing processes.',
         serviceKey: 'infor-syteline'
