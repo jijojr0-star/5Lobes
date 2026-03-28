@@ -94,7 +94,7 @@ export const Navigation = () => {
     };
 
     return (
-        <nav className="flex justify-between items-center h-[90px] px-[8%] bg-background shadow-nav sticky top-0 z-50">
+        <nav className="flex justify-between items-center h-[100px] px-[8%] bg-background shadow-nav sticky top-0 z-50">
             {/* Logo + Tagline */}
             <a
                 href="#home"
@@ -104,10 +104,10 @@ export const Navigation = () => {
                 <img
                     src="/5lobes-logo.jpg"
                     alt="5Lobes Technologies"
-                    className="h-14 md:h-16 w-auto object-contain rounded-lg"
+                    className="h-16 md:h-20 w-auto object-contain rounded-lg"
                     loading="eager"
                 />
-                <span className="text-xs md:text-sm italic text-secondary font-medium mt-0.5 leading-tight">
+                <span className="text-sm md:text-base italic text-secondary font-medium mt-1 leading-tight">
                     Best brains building a better tomorrow!
                 </span>
             </a>
