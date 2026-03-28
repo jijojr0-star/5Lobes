@@ -87,9 +87,9 @@ export const Footer = () => {
                     <div className="lg:col-span-1">
                         <a href="#home" onClick={(e) => scrollToSection(e, '#home')}>
                             <img
-                                src="/5lobes-logo.svg"
+                                src="/5lobes-logo.jpg"
                                 alt="5Lobes Technologies"
-                                className="h-10 w-auto object-contain mb-4 rounded-lg"
+                                className="h-10 w-auto object-contain mb-4"
                                 loading="lazy"
                             />
                         </a>
