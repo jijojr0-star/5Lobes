@@ -1,61 +1,5 @@
 export const serviceData = {
     // 1
-    'erp-consulting': {
-        title: 'Enterprise Resource Planning Services',
-        icon: 'Network',
-        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
-        content: 'We provide end-to-end ERP consulting and implementation services—from requirement analysis and platform selection to deployment, training, and post-go-live support. Our structured approach helps businesses optimize enterprise resource planning systems and achieve measurable ROI.',
-        coreServices: [
-            {
-                category: 'ERP Consulting',
-                items: ['Business process mapping', 'System evaluation & ERP readiness assessment']
-            },
-            {
-                category: 'ERP Implementation',
-                items: ['Full-cycle implementation (on-premise & cloud-based)', 'Project management']
-            },
-            {
-                category: 'ERP Customization',
-                items: ['Module customization (Forms, Reports, Procedures, Business Processes)', 'Industry-specific enhancements', 'Country/State-specific Tax Localization']
-            },
-            {
-                category: 'Integration Services',
-                items: ['API integrations using ION and other integration tools']
-            },
-            {
-                category: 'ERP Migration',
-                items: ['Legacy system to modern ERP', 'Version upgrades']
-            },
-            {
-                category: 'Training & Change Management',
-                items: ['User onboarding', 'Functional and technical training']
-            },
-            {
-                category: 'Ongoing Support & Maintenance',
-                items: ['24/7 helpdesk', 'Performance monitoring & system health checks']
-            }
-        ],
-        productsWeSupport: [
-            'Odoo',
-            'Infor SyteLine (Cloudsuite Industrials)',
-            'Infor M3',
-            'Infor CloudSuite Financials',
-            'Infor CPQ (Configure, Price, and Quote)',
-            'Infor Factory Track',
-            'Infor ION',
-            'Infor Mongoose',
-            'Infor Mingle',
-            'Open-source and proprietary ERP platforms'
-        ],
-        industriesServed: [
-            'Manufacturing',
-            'Distribution',
-            'Retail',
-            'Automotive',
-            'Information Technology'
-        ]
-    },
-    // 2
     'infor-syteline': {
         title: 'Infor SyteLine (Cloudsuite Industrials)',
         icon: 'Factory',
@@ -111,7 +55,7 @@ export const serviceData = {
             'Managed 25+ integration touchpoints'
         ]
     },
-    // 3
+    // 2
     'infor-mongoose': {
         title: 'Application Development (Infor Mongoose)',
         icon: 'AppWindow',
@@ -156,7 +100,7 @@ export const serviceData = {
             }
         ]
     },
-    // 4
+    // 3
     'odoo-partner': {
         title: 'Odoo Partners',
         icon: 'Handshake',
@@ -164,7 +108,7 @@ export const serviceData = {
         content: 'As Odoo Partners, we provide professional services to help businesses maximize the value of their ERP solutions:',
         list: ['Odoo Implementation', 'Odoo Customization', 'Odoo Training', 'Odoo Support']
     },
-    // 5
+    // 4
     'hr-consulting': {
         title: 'Human Resource Management',
         icon: 'Users',
@@ -185,6 +129,62 @@ export const serviceData = {
         }
     },
     // 5
+    'erp-consulting': {
+        title: 'Enterprise Resource Planning Services',
+        icon: 'Network',
+        image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80',
+        content: 'We provide end-to-end ERP consulting and implementation services—from requirement analysis and platform selection to deployment, training, and post-go-live support. Our structured approach helps businesses optimize enterprise resource planning systems and achieve measurable ROI.',
+        coreServices: [
+            {
+                category: 'ERP Consulting',
+                items: ['Business process mapping', 'System evaluation & ERP readiness assessment']
+            },
+            {
+                category: 'ERP Implementation',
+                items: ['Full-cycle implementation (on-premise & cloud-based)', 'Project management']
+            },
+            {
+                category: 'ERP Customization',
+                items: ['Module customization (Forms, Reports, Procedures, Business Processes)', 'Industry-specific enhancements', 'Country/State-specific Tax Localization']
+            },
+            {
+                category: 'Integration Services',
+                items: ['API integrations using ION and other integration tools']
+            },
+            {
+                category: 'ERP Migration',
+                items: ['Legacy system to modern ERP', 'Version upgrades']
+            },
+            {
+                category: 'Training & Change Management',
+                items: ['User onboarding', 'Functional and technical training']
+            },
+            {
+                category: 'Ongoing Support & Maintenance',
+                items: ['24/7 helpdesk', 'Performance monitoring & system health checks']
+            }
+        ],
+        productsWeSupport: [
+            'Odoo',
+            'Infor SyteLine (Cloudsuite Industrials)',
+            'Infor M3',
+            'Infor CloudSuite Financials',
+            'Infor CPQ (Configure, Price, and Quote)',
+            'Infor Factory Track',
+            'Infor ION',
+            'Infor Mongoose',
+            'Infor Mingle',
+            'Open-source and proprietary ERP platforms'
+        ],
+        industriesServed: [
+            'Manufacturing',
+            'Distribution',
+            'Retail',
+            'Automotive',
+            'Information Technology'
+        ]
+    },
+    // 6
     'web-dev': {
         title: 'Web Design & Development Services',
         subtitle: 'Crafting Digital Experiences That Convert',
@@ -235,7 +235,7 @@ export const serviceData = {
             text: 'Ready to take your online presence to the next level? Let\'s create a website that not only looks great but also delivers real results.'
         }
     },
-    // 6
+    // 7
     'qa-testing': {
         title: 'Software Testing & Quality Assurance',
         icon: 'TestTube',
@@ -272,7 +272,7 @@ export const serviceData = {
             ]
         }
     },
-    // 7
+    // 8
     'ai-data-science': {
         title: 'AI & Data Science Capabilities',
         icon: 'BrainCircuit',
@@ -280,7 +280,7 @@ export const serviceData = {
         content: 'We leverage advanced AI and Data Science technologies to help organizations make smarter decisions and unlock business value from their data. Our capabilities include data analytics, machine learning solutions, predictive modeling, intelligent automation, and AI-driven insights that enable businesses to innovate, optimize operations, and stay competitive in a data-driven world.',
         whiteBackground: true
     },
-    // 8
+    // 9
     'bi-solutions': {
         title: 'Business Intelligence Solutions',
         icon: 'BarChart3',
@@ -308,7 +308,7 @@ export const serviceData = {
             }
         ]
     },
-    // 9
+    // 10
     'it-consulting': {
         title: 'IT Consulting & Expert Services',
         icon: 'UserCheck',
@@ -335,7 +335,7 @@ export const serviceData = {
             }
         ]
     },
-    // 10
+    // 11
     'custom-software': {
         title: 'Custom Software Development',
         icon: 'Laptop',
@@ -362,7 +362,7 @@ export const serviceData = {
             }
         ]
     },
-    // 11
+    // 12
     'finance-bpo': {
         title: 'Finance & Accounting BPO',
         icon: 'Calculator',
