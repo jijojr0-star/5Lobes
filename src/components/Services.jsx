@@ -130,8 +130,8 @@ export const Services = () => {
                                     <>
                                         <span id="talentcorner" className="absolute -top-24" />
                                         <div className="mt-4 pt-4 border-t border-border">
-                                            <p className="text-xs text-muted-foreground">
-                                                <span className="font-medium text-secondary">Partnership: </span>
+                                            <p className="text-sm text-muted-foreground">
+                                                <span className="font-semibold text-secondary">Partnership: </span>
                                                 <a
                                                     href={service.partnership.partnerUrl}
                                                     target="_blank"
