@@ -134,7 +134,7 @@ export default function FullContentModal({ service, isOpen, onClose }) {
                                 <Star className="h-5 w-5 text-primary" />
                                 What We Offer
                             </h3>
-                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div className="grid gap-4" style={{gridTemplateColumns:'repeat(auto-fill,minmax(200px,1fr))'}}>
                                 {service.offerings.map((item, idx) => (
                                     <div key={idx} className="border border-border rounded-lg p-4 hover:border-primary/30 hover:shadow-sm transition-all" data-testid={`offering-${idx}`}>
                                         <div className="flex items-center gap-2 mb-3">
