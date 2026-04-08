@@ -15,7 +15,6 @@ const EMAILJS_SERVICE_ID = 'service_6sdx8aa';
 const EMAILJS_TEMPLATE_ID = 'template_2id66w4';
 const EMAILJS_PUBLIC_KEY = '_3oc1lrp1VVcgDTMC';
 
-emailjs.init(EMAILJS_PUBLIC_KEY);
 
 export const Contact = () => {
     const [formData, setFormData] = useState({
@@ -39,33 +38,17 @@ export const Contact = () => {
         setIsSubmitting(true);
 
         try {
-            const result = await new Promise((resolve, reject) => {
-                const xhr = new XMLHttpRequest();
-                xhr.open('POST', 'https://api.emailjs.com/api/v1.0/email/send', true);
-                xhr.setRequestHeader('Content-Type', 'application/json');
-                xhr.onload = function () {
-                    if (xhr.status === 200) {
-                        resolve(xhr.responseText);
-                    } else {
-                        console.error('EmailJS error:', xhr.status, xhr.responseText);
-                        reject(new Error(xhr.responseText || 'Request failed'));
-                    }
-                };
-                xhr.onerror = function () {
-                    reject(new Error('Network error'));
-                };
-                xhr.send(JSON.stringify({
-                    service_id: EMAILJS_SERVICE_ID,
-                    template_id: EMAILJS_TEMPLATE_ID,
-                    user_id: EMAILJS_PUBLIC_KEY,
-                    template_params: {
-                        from_name: formData.name,
-                        from_email: formData.email,
-                        phone: formData.phone,
-                        message: formData.message,
-                    },
-                }));
-            });
+            await emailjs.send(
+                EMAILJS_SERVICE_ID,
+                EMAILJS_TEMPLATE_ID,
+                {
+                    from_name: formData.name,
+                    from_email: formData.email,
+                    phone: formData.phone,
+                    message: formData.message,
+                },
+                EMAILJS_PUBLIC_KEY
+            );
 
             toast.success('Your inquiry has been submitted successfully.');
             setFormData({ name: '', email: '', phone: '', message: '' });
